@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="889e1205-8b02-40b8-82e3-07a865a92eca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/constant/DictDataConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/constant/ReportConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/constant/SubmittedConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/controller/ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/controller/SubmittedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/entity/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/entity/Submitted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/mapper/ReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/mapper/SubmittedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/query/ReportQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/query/SubmittedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/IReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/ISubmittedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/impl/ReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/impl/SubmittedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/dictdata/DictDataInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/dictdata/DictDataListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/report/ReportInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/report/ReportListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/submitted/SubmittedInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/vo/submitted/SubmittedListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/resources/mapper/ReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-system/src/main/resources/mapper/SubmittedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/system/dictdata/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/system/report/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/system/report/index2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/system/submitted/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-generator/src/main/java/com/javaweb/generator/utils/CodeGenerateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-generator/src/main/java/com/javaweb/generator/utils/CodeGenerateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/controller/DictDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/controller/DictDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/entity/DictData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/entity/DictData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/mapper/DictDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/mapper/DictDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/query/DictDataQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/query/DictDataQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/IDictDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/IDictDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/impl/DictDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-system/src/main/java/com/javaweb/system/service/impl/DictDataServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="0d093b3f-bbc4-4920-8746-ab38ec5b9b95" name="127.0.0.1:8081" port="8081" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1tbWEIByHruQkRwfefpit76okeQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="javaWeb" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="127.0.0.1:8081">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="889e1205-8b02-40b8-82e3-07a865a92eca" name="Default Changelist" comment="" />
+      <created>1623038156075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623038156075</updated>
+      <workItem from="1623038158574" duration="4852000" />
+      <workItem from="1623051209976" duration="5410000" />
+      <workItem from="1623116146298" duration="6405000" />
+      <workItem from="1623201929453" duration="1848000" />
+      <workItem from="1623288975201" duration="1810000" />
+      <workItem from="1623400324786" duration="640000" />
+      <workItem from="1623740916393" duration="1198000" />
+      <workItem from="1623895657056" duration="599000" />
+      <workItem from="1623981122818" duration="3786000" />
+      <workItem from="1624242206928" duration="20000" />
+      <workItem from="1625468258870" duration="11552000" />
+      <workItem from="1625620236779" duration="6975000" />
+      <workItem from="1625708398603" duration="4908000" />
+      <workItem from="1625794370769" duration="2485000" />
+    </task>
+    <task id="LOCAL-00001" summary="fgd">
+      <created>1625538562765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625538562765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fgd">
+      <created>1625540199298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625540199298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fgd" />
+    <option name="LAST_COMMIT_MESSAGE" value="fgd" />
+  </component>
+</project>
